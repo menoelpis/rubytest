@@ -6,3 +6,10 @@ puts string.length.next
 
 french_string = "il \xc3\xa9tait une fois"
 puts french_string
+
+long_string = <<EOF
+Here is a long string
+With many paragraphs
+EOF
+
+puts long_string
